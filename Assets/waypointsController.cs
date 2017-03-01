@@ -10,6 +10,7 @@ public class waypointsController : MonoBehaviour {
     public GameObject nextWapoint;
     public float countDown;
     public float curDown;
+    public float timeBonus;
     public Text timeRemaining;
     public Text totalTime;
     private float curOverTime = 0;
@@ -22,8 +23,8 @@ public class waypointsController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        timeRemaining.text = "Time Remaining:"+curDown.ToString("F2");
-        totalTime.text = "Total Time:" + (curOverTime + (countDown - curDown)).ToString("F2");
+        timeRemaining.text = ""+curDown.ToString("F2");
+        totalTime.text = "Total Time:" + (curOverTime).ToString("F2");
 		for(int i = 0; i < waypoints.Length; i++)
         {
             if (i == waypoints.Length-1 && waypoints[i].GetComponent<waypointCollider>().collided)
@@ -35,12 +36,12 @@ public class waypointsController : MonoBehaviour {
                 if(nextWapoint == waypoints[i])
                 {
                     nextWapoint = waypoints[i+1];
-                    curOverTime += countDown - curDown;
-                    curDown = countDown;
+                    curDown += timeBonus;
                 }
             }
         }
         curDown -= Time.deltaTime;
+        curOverTime += Time.deltaTime;
         if(curDown <= 0.0f)
         {
             Debug.Log("Loser");
