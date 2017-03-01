@@ -14,7 +14,7 @@ public class FlightController : MonoBehaviour
 	float topRot = 1.0f;
 	float topSpeed = 16.0f;
 	float speed = 0.0f;
-	float acceleration = 0.4f;
+	float acceleration = 0.07f;
 	float handling = 40.0f;
 	Vector3 velocity = new Vector3(0.0f,0.0f,0.0f);
 
