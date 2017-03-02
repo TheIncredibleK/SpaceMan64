@@ -5,7 +5,7 @@ using UnityEngine;
 public class Destruction : MonoBehaviour {
 
 
-	GameObject destructionGib;
+	public GameObject destructionGib;
 
 
 	public void DestroySelf() {

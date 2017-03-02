@@ -9,7 +9,7 @@ public class FlightController : MonoBehaviour
 	Controller flyController;
 	GestureRecogniser gestureRecogniser;
 	public GameObject vehicle;
-	public Image speedometer;
+	public UnityEngine.UI.Image speedometer;
 	float rotateAngleX;
 	float rotateAngleZ;
 	float rateOfChange = 0.00058f;
@@ -68,7 +68,6 @@ public class FlightController : MonoBehaviour
 		vehicle.transform.position += velocity;
 		speed *= .99f;
 
-		vehicle.transform.position += vehicle.transform.forward * .5f;
 		speedometer.fillAmount = speed / topSpeed;
 
 	}
