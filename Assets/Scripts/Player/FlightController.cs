@@ -37,9 +37,9 @@ public class FlightController : MonoBehaviour
 	void Update()
 	{
 		System.Collections.Generic.List<Leap.Hand> hands = gestureRecogniser.getFrameHands();
-		string current_gesture = gestureRecogniser.Recognise(hands[1]);
-		string for_ui = gestureRecogniser.Recognise(hands[0]);
 		if (hands.Count == 2) {
+			string current_gesture = gestureRecogniser.Recognise(hands[1]);
+			string for_ui = gestureRecogniser.Recognise(hands[0]);
 			Leap.Hand r_hand = hands [1];
 
 			if (for_ui == "FIST") {
@@ -54,17 +54,17 @@ public class FlightController : MonoBehaviour
 				Tilt (RollAngle);
 				Rise (PitchAngle);
 			}
+
 			//Added slipperiness to flight, to make it more natural
 			velocity = (velocity.normalized + (vehicle.transform.forward) / (handling * 1.5f) ) * speed * Time.deltaTime;
-			vehicle.transform.position += velocity;
-			Debug.Log ("Speed :" + speed);
-			if (speed <= topSpeed) {
-				Debug.Log ("Making it to increase speed");
-				speed += acceleration;
-			} else {
-				speed *= .99f;
-			}
-		} 
+		}
+
+		vehicle.transform.position += velocity;
+		speed *= .99f;
+		if (speed <= topSpeed) {
+			Debug.Log ("Making it to increase speed");
+			speed += acceleration;
+		}
 
 
 
