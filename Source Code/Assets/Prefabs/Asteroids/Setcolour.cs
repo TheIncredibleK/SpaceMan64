@@ -13,7 +13,7 @@ public class Setcolour : MonoBehaviour {
 			
 			colour = new Color (Random.value, Random.value, Random.value, 1.0f);
 		}
-		for (int i = 0; i <= this.transform.childCount + 1; i++) {
+		for (int i = 0; i <= this.transform.childCount; i++) {
 			if (randomiseSections) {
 				colour = new Color (Random.value, Random.value, Random.value, 1.0f);
 			}

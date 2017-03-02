@@ -136,9 +136,9 @@ public class AsteroidGenerator : MonoBehaviour {
 	void ManageAsteroids() {
 		for (int x = 0; x < size_x; x++) {
 			for (int z = 0; z < size_z; z++) {
-				if (Vector3.Distance (asteroidPositions [x, z], player.transform.position) > minDistance) {
-					Destroy (Asteroids [x, z]);
-					Asteroids [x, z] = null;
+					if (Vector3.Distance (asteroidPositions [x, z], player.transform.position) > minDistance) {
+						Destroy (Asteroids [x, z]);
+						Asteroids [x, z] = null;
 				} else {
 					if(Asteroids[x,z] == null) {
 						Asteroids [x, z] = Instantiate (smallAsteroid, asteroidPositions [x, z], Quaternion.identity);
