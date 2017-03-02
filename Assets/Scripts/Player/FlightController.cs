@@ -8,7 +8,6 @@ public class FlightController : MonoBehaviour
 	Controller flyController;
 	GestureRecogniser gestureRecogniser;
 	public GameObject vehicle;
-	public bool raceStart = false;
 	float rotateAngleX;
 	float rotateAngleZ;
 	float rateOfChange = 0.00058f;
@@ -34,13 +33,8 @@ public class FlightController : MonoBehaviour
 
 	}
 
-	void Update() {
-		if (raceStart) {
-			Flight ();
-		}
-	}
 
-	void Flight()
+	void Update()
 	{
 		System.Collections.Generic.List<Leap.Hand> hands = gestureRecogniser.getFrameHands();
 		if (hands.Count == 2) {
