@@ -2,6 +2,7 @@
 using System.Collections;
 using Leap;
 using Leap.Unity;
+using UnityEngine.UI;
 
 public class FlightController : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class FlightController : MonoBehaviour
 	float acceleration = 0.07f;
 	float handling = 40.0f;
 	Vector3 velocity = new Vector3(0.0f,0.0f,0.0f);
+
+    public UnityEngine.UI.Image speedBar;
 
 	// Use this for initialization
 	void Start()
@@ -53,9 +56,9 @@ public class FlightController : MonoBehaviour
 				Debug.Log ("Making it to increase speed");
 				speed += acceleration;
 			}
-		} 
+		}
 
-
+        speedBar.fillAmount = speed / topSpeed;
 	}
 
 	bool Tilt(float Roll)
@@ -91,6 +94,4 @@ public class FlightController : MonoBehaviour
 		}
 
 	}
-
-
 }

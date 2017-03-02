@@ -19,7 +19,9 @@ public class waypointsController : MonoBehaviour {
 	void Start () {
         nextWapoint = waypoints[0];
         curDown = countDown;
-	}
+        var main = nextWapoint.GetComponent<waypointCollider>().ps.main;
+        main.startColor = new Color(0, 1, 0, 0.1f);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -29,13 +31,22 @@ public class waypointsController : MonoBehaviour {
         {
             if (i == waypoints.Length-1 && waypoints[i].GetComponent<waypointCollider>().collided)
             {
-                Debug.Log("Winner");
+                float minutes = 0;
+                while(curOverTime >= 60)
+                {
+                    minutes += 1;
+                    curOverTime -= 60;
+                }
+                string score = minutes + ":" + curOverTime;
+                Debug.Log("Winner:"+score);
             }
             else if (waypoints[i].GetComponent<waypointCollider>().collided)
             {
                 if(nextWapoint == waypoints[i])
                 {
                     nextWapoint = waypoints[i+1];
+                    var main = nextWapoint.GetComponent<waypointCollider>().ps.main;
+                    main.startColor = new Color(0, 1, 0, 0.1f);
                     curDown += timeBonus;
                 }
             }

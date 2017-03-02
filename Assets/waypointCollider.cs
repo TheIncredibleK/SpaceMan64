@@ -6,8 +6,9 @@ public class waypointCollider : MonoBehaviour {
 
     public bool collided = false;
     public GameObject waypointController;
-	// Use this for initialization
-	void Start () {
+    public ParticleSystem ps;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -18,10 +19,12 @@ public class waypointCollider : MonoBehaviour {
 
     void OnTriggerEnter(Collider collider)
     {
-        if(collider.gameObject.layer == 8)
+        //Debug.Log("Collided");
+        if (collider.gameObject.layer == 8)
         {
             if(waypointController.GetComponent<waypointsController>().nextWapoint == gameObject)
             {
+                ps.Stop();
                 collided = true;
             }
             
