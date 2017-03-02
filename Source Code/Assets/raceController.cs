@@ -39,7 +39,7 @@ public class raceController : MonoBehaviour {
             else
             {
                 countdown.text = "";
-                //playerMovement.GetComponent<FlightController>().raceStart = true;
+                playerMovement.GetComponent<FlightController>().raceStart = true;
                 waypointsController.GetComponent<waypointsController>().raceStarted = true;
             }
             

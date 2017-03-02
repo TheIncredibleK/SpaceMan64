@@ -9,7 +9,7 @@ public class FlightController : MonoBehaviour
 	Controller flyController;
 	GestureRecogniser gestureRecogniser;
 	public GameObject vehicle;
-	public Image speedometer;
+	public UnityEngine.UI.Image speedometer;
 	float rotateAngleX;
 	float rotateAngleZ;
 	float rateOfChange = 0.00058f;
@@ -21,6 +21,7 @@ public class FlightController : MonoBehaviour
 	float acceleration = 0.07f;
 	float handling = 40.0f;
 	Vector3 velocity = new Vector3(0.0f,0.0f,0.0f);
+    public bool raceStart = false;
 
 	// Use this for initialization
 	void Start()
@@ -35,8 +36,16 @@ public class FlightController : MonoBehaviour
 
 	}
 
+    void Update()
+    {
+        if(raceStart)
+        {
+            flight();
+        }
+        
+    }
 
-	void Update()
+	void flight()
 	{
 		System.Collections.Generic.List<Leap.Hand> hands = gestureRecogniser.getFrameHands();
 		if (hands.Count == 2) {
@@ -68,7 +77,6 @@ public class FlightController : MonoBehaviour
 		vehicle.transform.position += velocity;
 		speed *= .99f;
 
-		vehicle.transform.position += vehicle.transform.forward * .5f;
 		speedometer.fillAmount = speed / topSpeed;
 
 	}
