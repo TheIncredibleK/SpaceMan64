@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using Leap;
 using Leap.Unity;
@@ -8,6 +9,7 @@ public class FlightController : MonoBehaviour
 	Controller flyController;
 	GestureRecogniser gestureRecogniser;
 	public GameObject vehicle;
+	public UnityEngine.UI.Image speedometer;
 	float rotateAngleX;
 	float rotateAngleZ;
 	float rateOfChange = 0.00058f;
@@ -15,10 +17,11 @@ public class FlightController : MonoBehaviour
 	float currentMaxSpeed = 20.0f;
 	float topSpeed = 20.0f;
 	float nitrosSpeed;
-	float speed = 0.0f;
+	public float speed = 0.0f;
 	float acceleration = 0.07f;
 	float handling = 40.0f;
 	Vector3 velocity = new Vector3(0.0f,0.0f,0.0f);
+    public bool raceStart = false;
 
 	// Use this for initialization
 	void Start()
@@ -33,8 +36,16 @@ public class FlightController : MonoBehaviour
 
 	}
 
+    void Update()
+    {
+        if(raceStart)
+        {
+            flight();
+        }
+        
+    }
 
-	void Update()
+	void flight()
 	{
 		System.Collections.Generic.List<Leap.Hand> hands = gestureRecogniser.getFrameHands();
 		if (hands.Count == 2) {
@@ -54,6 +65,10 @@ public class FlightController : MonoBehaviour
 				Tilt (RollAngle);
 				Rise (PitchAngle);
 			}
+			if (speed <= topSpeed) {
+				speed += acceleration;
+			}
+
 
 			//Added slipperiness to flight, to make it more natural
 			velocity = (velocity.normalized + (vehicle.transform.forward) / (handling * 1.5f) ) * speed * Time.deltaTime;
@@ -61,12 +76,8 @@ public class FlightController : MonoBehaviour
 
 		vehicle.transform.position += velocity;
 		speed *= .99f;
-		if (speed <= topSpeed) {
-			Debug.Log ("Making it to increase speed");
-			speed += acceleration;
-		}
 
-
+		speedometer.fillAmount = speed / topSpeed;
 
 	}
 
@@ -102,6 +113,12 @@ public class FlightController : MonoBehaviour
 			vehicle.transform.rotation = Quaternion.Slerp(vehicle.transform.rotation, vehicle.transform.rotation *= targetQuat, handling * Time.deltaTime);
 		}
 
+	}
+
+	void OnCollisionEnter(Collision other) {
+		Debug.Log ("Colliding");
+		other.gameObject.GetComponent<Destruction> ().DestroySelf ();
+		speed = speed / 2;
 	}
 
 
