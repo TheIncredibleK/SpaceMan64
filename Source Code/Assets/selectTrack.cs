@@ -11,6 +11,7 @@ public class selectTrack : MonoBehaviour {
 	void Start () {
         trackType = gameObject.ToString().ToLower();
         raceController = GameObject.Find("raceController").GetComponent<raceController>();
+
     }
 	
 	// Update is called once per frame
@@ -22,5 +23,6 @@ public class selectTrack : MonoBehaviour {
     {
         Debug.Log("Hello");
         raceController.setDifficulty(trackType);
+        Destroy(gameObject.transform.parent.gameObject.transform.parent.gameObject);
     }
 }
