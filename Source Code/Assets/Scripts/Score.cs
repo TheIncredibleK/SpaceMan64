@@ -4,8 +4,6 @@ using System;
 using System.IO;
 using UnityEngine;
 
-
-
 public static class Scores {
 
 	private static string fileName = "/scores.json";
@@ -53,12 +51,10 @@ public static class Scores {
 
 		TrackScores track = Load (trackName);
 
-		int tPos = 420;//arbitrary value
-
-		float playerTime = Int32.Parse (time.Replace (":", ""));
+        float playerTime = Int32.Parse(time.Replace(":", ""));
 
 
-		for (int i = 0; i < track.times.Length; i++) {
+        for (int i = 0; i < track.times.Length; i++) {
 			if (playerTime < Int32.Parse (track.times [i].Replace (":", "")))
 				return true;
 			if (track.times [i] == "" || track.times [i] == null)
@@ -70,7 +66,7 @@ public static class Scores {
 	//save temp score
 	public static bool SaveTemp(string score, string track, bool winner){
 		
-		File.Create (Application.persistentDataPath + tempFileName);
+		File.Create (Application.persistentDataPath + tempFileName).Dispose();
 		File.WriteAllText (Application.persistentDataPath + tempFileName, score + "," + track + "," + winner.ToString());
 		return true;
 	}
