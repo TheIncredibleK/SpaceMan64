@@ -17,7 +17,7 @@ public class StartGame : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        Debug.Log("Hello");
+        Debug.Log("Starting Game");
         SceneManager.LoadScene("Main");
     }
 }

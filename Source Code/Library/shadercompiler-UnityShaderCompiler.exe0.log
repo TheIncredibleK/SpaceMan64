@@ -1,6 +1,25 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: getPlatforms
+<<<<<<< HEAD
 Cmd: compileSnippet
   api=4 type=0 insize=949 outsize=1718 kw=POINT _ALPHAPREMULTIPLY_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
 Cmd: compileSnippet
   api=4 type=1 insize=949 outsize=2982 kw=POINT _ALPHAPREMULTIPLY_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+=======
+Cmd: preprocess
+  insize=4398 outsize=1085 ok=1
+Cmd: preprocess
+  insize=2078 outsize=806 ok=1
+Cmd: preprocess
+  insize=13365 outsize=2647 ok=1
+Cmd: preprocess
+  insize=948 outsize=304 ok=1
+Cmd: preprocess
+  insize=12498 outsize=2525 ok=1
+Cmd: preprocess
+  insize=1342 outsize=511 ok=1
+Cmd: preprocess
+  insize=1968 outsize=588 ok=1
+Cmd: preprocess
+  insize=906 outsize=262 ok=1
+>>>>>>> 9fc39209c0519440ae87dddb360f8be7abb0d0d5

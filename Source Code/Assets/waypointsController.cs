@@ -19,6 +19,7 @@ public class waypointsController : MonoBehaviour {
     public string trackName;
     public bool raceStarted = false;
     public float minutes = 0;
+    private string timeSave;
 
     // Use this for initialization
     void Start () {
@@ -35,8 +36,8 @@ public class waypointsController : MonoBehaviour {
         {
             if (i == waypoints.Length-1 && waypoints[i].GetComponent<waypointCollider>().collided)
             {
-                string score = minutes + ":" + curOverTime;
-                persistantObject.GetComponent<persistantData>().setInfo(score, true, trackName);
+                
+                gameOver(true);
                 SceneManager.LoadScene("Exit");
             }
             else if (waypoints[i].GetComponent<waypointCollider>().collided)
@@ -94,9 +95,7 @@ public class waypointsController : MonoBehaviour {
         }
         if(curDown <= 0.0f)
         {
-            string score = minutes + ":" + curOverTime;
-            persistantObject.GetComponent<persistantData>().setInfo(score, false, trackName);
-            SceneManager.LoadScene("Exit");
+            gameOver(false);
         }
 	}
 
@@ -105,5 +104,12 @@ public class waypointsController : MonoBehaviour {
         persistantObject = _persistantObject;
         totalTime = _totalTime;
         timeRemaining = _timeRemaining;
+    }
+
+    public void gameOver(bool winner)
+    {
+        timeSave = minutes + ":" + curOverTime;
+        Scores.SaveTemp(timeSave, trackName, winner);
+        SceneManager.LoadScene("Exit");
     }
 }
