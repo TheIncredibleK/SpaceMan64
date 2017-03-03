@@ -14,9 +14,9 @@ public class DisplayScore : MonoBehaviour {
     // Use this for initialization
     void Start () {
         text = GameObject.Find("PlayerScore").GetComponent<Text>();
-        //persString = Scores.LoadTemp().Split(',');
-        time = "22:30";//persString[0];
-        track = "easy";//persString[1];
+        persString = Scores.LoadTemp().Split(',');
+        time = "22:30";
+        track = "easy";
         text.text = time;
     }
 	

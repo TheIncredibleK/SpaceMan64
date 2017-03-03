@@ -25,10 +25,10 @@ public class EnterName : MonoBehaviour {
     // Use this for initialization
     void Start () {
         scoreSubmitted = false;
-        //persString = Scores.LoadTemp().Split(',');
-        time = "22:30";//persString[0];
-        track = "easy";//persString[1];
-        winner = true;//Convert.ToBoolean(persString[2]);
+        persString = Scores.LoadTemp().Split(',');
+        time = persString[0];
+        track = persString[1];
+        winner = Convert.ToBoolean(persString[2]);
         leaderboard = GameObject.Find("LeaderboardBody").GetComponent<Text>();
         text = GameObject.Find("EnterName").GetComponent<Text>();
         editText = "Enter Your Name:\n\n\n\n\n\n_ _ _ _ _ _ _ _ _ _";
