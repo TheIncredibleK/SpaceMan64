@@ -9,8 +9,8 @@ public class selectTrack : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        trackType = gameObject.ToString().ToLower();
-        raceController = GameObject.Find("raceController").GetComponent<raceController>();
+		Debug.Log ("TT: " + trackType);
+		raceController = GameObject.FindGameObjectWithTag("Rig").GetComponent<raceController>();
 
     }
 	

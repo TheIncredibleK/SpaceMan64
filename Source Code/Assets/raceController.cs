@@ -31,6 +31,7 @@ public class raceController : MonoBehaviour {
 	void Update () {
 		if(difficultyChosen)
         {
+
             curDown -= Time.deltaTime;
             if(curDown >= 1)
             {
@@ -45,6 +46,8 @@ public class raceController : MonoBehaviour {
             
             if(!trackBuilt)
             {
+				Debug.Log ("Building");
+				Debug.Log (track);
                 if(track.Equals("easy"))
                 {
                     waypointsController = Instantiate(easyTrack, transform.position, transform.rotation);
@@ -53,6 +56,7 @@ public class raceController : MonoBehaviour {
                 }
                 if (track.Equals("medium"))
                 {
+					Debug.Log ("Building 2");
                     waypointsController = Instantiate(mediumTrack, transform.position, transform.rotation);
                     waypointsController.GetComponent<waypointsController>().setVars(persistantObject, totalTime, timeRemaining);
                     playerArrow.GetComponent<guideArrow>().waypointsController = waypointsController;
