@@ -13,10 +13,18 @@ public class EnterName : MonoBehaviour {
     public String name;
     public String time;
     public String track;
+    public bool winner;
+    public bool scoreSubmitted;
 
     // Use this for initialization
     void Start () {
-        persistantObject = GameObject.Find("persistantObject");
+        //persistantObject = GameObject.Find("persistantObject");
+        //time = persistantObject.GetComponent<persistantData>().getTime();
+        //track = persistantObject.GetComponent<persistantData>().getTrack();
+        //winner = persistantObject.GetComponent<persistantData>().getWinner();
+        time = "2:12";
+        track = "easy";
+
         text = GameObject.Find("EnterName").GetComponent<Text>();
         editText = "Enter Your Name:\n\n\n\n\n\n_ _ _ _ _ _ _ _ _ _";
         cursor = 21;
@@ -26,9 +34,9 @@ public class EnterName : MonoBehaviour {
 	void Update () {
         foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
         {
-            if (name.Length < 10)
+            if (name.Length < 10 /**&& winner**/)
             {
-                if (Input.GetKeyDown(key))
+                if (Input.GetKeyDown(key) && !(Input.GetKeyDown("return")))
                 {
                     Debug.Log(key);
                     editText = editText.Insert(cursor, key.ToString());
@@ -38,11 +46,11 @@ public class EnterName : MonoBehaviour {
                     cursor++;
                     text.text = editText;
                     Debug.Log(editText.ToString());
-
                 }
             }
             if ((Input.GetKeyDown("return"))){
                 Debug.Log("Trying to save");
+                scoreSubmitted = true;
             }
         }
     }
