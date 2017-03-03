@@ -19,10 +19,14 @@ public class selectTrack : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter(Collider col)
+	void OnTriggerEnter(Collider col)
     {
-        Debug.Log("Hello");
-        raceController.setDifficulty(trackType);
-        Destroy(gameObject.transform.parent.gameObject.transform.parent.gameObject);
+
+		if (col.gameObject.tag == "Hand") {
+
+			Debug.Log ("Hello");
+			raceController.setDifficulty (trackType);
+			Destroy (GameObject.FindGameObjectWithTag ("Menu"));
+		}
     }
 }

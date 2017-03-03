@@ -119,9 +119,11 @@ public class FlightController : MonoBehaviour
 	}
 
 	void OnCollisionEnter(Collision other) {
-		Debug.Log ("Colliding");
-		other.gameObject.GetComponent<Destruction> ().DestroySelf ();
-		speed = speed / 2;
+		if (other.gameObject.tag == "Asteroid") {
+			Debug.Log ("Colliding");
+			other.gameObject.GetComponent<Destruction> ().DestroySelf ();
+			speed = speed / 2;
+		}
 	}
 
 
