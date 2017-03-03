@@ -5,12 +5,17 @@ using UnityEngine;
 public class Destruction : MonoBehaviour {
 
 
-	GameObject destructionGib;
+	public GameObject destructionGib;
+	public AudioClip death;
 
 
 	public void DestroySelf() {
 		if (destructionGib != null) {
 			Instantiate (destructionGib, this.transform.position, Quaternion.identity);
+		}
+		if (death != null) {
+			AudioSource.PlayClipAtPoint(death, this.transform.position);
+
 		}
 		Destroy (this.gameObject);
 	}

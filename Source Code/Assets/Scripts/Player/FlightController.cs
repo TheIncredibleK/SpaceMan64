@@ -19,7 +19,7 @@ public class FlightController : MonoBehaviour
 	float nitrosSpeed;
 	public float speed = 0.0f;
 	float acceleration = 0.07f;
-	float handling = 40.0f;
+	float handling = 30.0f;
 	Vector3 velocity = new Vector3(0.0f,0.0f,0.0f);
     public bool raceStart = false;
 
@@ -28,7 +28,7 @@ public class FlightController : MonoBehaviour
 	{
 		//Initalise flight controller
 		flyController = new Controller();
-		nitrosSpeed = topSpeed * 2.0f;
+		nitrosSpeed = topSpeed * 4.0f;
 		gestureRecogniser = GetComponent<GestureRecogniser>(); 
 		rotateAngleX = 0.0f;
 		rotateAngleZ = 0.0f;
@@ -67,6 +67,7 @@ public class FlightController : MonoBehaviour
 			}
 			if (speed <= topSpeed) {
 				speed += acceleration;
+				acceleration += .001f;
 			}
 
 
@@ -76,6 +77,8 @@ public class FlightController : MonoBehaviour
 
 		vehicle.transform.position += velocity;
 		speed *= .99f;
+		velocity = (velocity.normalized + (vehicle.transform.forward) / (handling * 1.5f) ) * speed * Time.deltaTime;
+
 
 		speedometer.fillAmount = speed / topSpeed;
 
