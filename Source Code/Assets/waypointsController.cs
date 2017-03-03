@@ -108,7 +108,7 @@ public class waypointsController : MonoBehaviour {
 
     public void gameOver(bool winner)
     {
-        timeSave = minutes + ":" + curOverTime;
+        timeSave = minutes + ":" + (int)curOverTime;
         Scores.SaveTemp(timeSave, trackName, winner);
         SceneManager.LoadScene("Exit");
     }
