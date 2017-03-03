@@ -20,6 +20,7 @@ public class EnterName : MonoBehaviour {
     public string[] times;
     public string[] names;
     public TrackScores scores;
+    public bool deleting;
 
     // Use this for initialization
     void Start () {
@@ -32,16 +33,18 @@ public class EnterName : MonoBehaviour {
         text = GameObject.Find("EnterName").GetComponent<Text>();
         editText = "Enter Your Name:\n\n\n\n\n\n_ _ _ _ _ _ _ _ _ _";
         cursor = 21;
+        deleting = false;
     }
 	
 	// Update is called once per frame
 	void Update () {
         scoreSubmitted = false;
+        deleting = false;
         foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
         {
-            if (name.Length < 10 && winner /**&& Scores.CheckScore(track,time)**/)
+            if (winner)
             {
-                if (Input.GetKeyDown(key) && !(Input.GetKeyDown("return")))
+                if (name.Length < 10 && Input.GetKeyDown(key) && !(Input.GetKeyDown("return"))&& char.IsLetter(key.ToString().ToCharArray()[0]) && (key.ToString().Length==1))
                 {
                     //Debug.Log(key);
                     editText = editText.Insert(cursor, key.ToString());
@@ -52,11 +55,22 @@ public class EnterName : MonoBehaviour {
                     text.text = editText;
                     //Debug.Log(editText.ToString());
                 }
-                if ((Input.GetKeyDown("return"))&&!scoreSubmitted)
+                if ((Input.GetKeyDown("return"))&&!scoreSubmitted && name.Length > 0)
                 {
-                    //Debug.Log("Trying to save");
+                    Debug.Log("Trying to save " +name);
                     scoreSubmitted = true;
                     submit(track, time, name);
+                }
+                if ((Input.GetKeyDown(KeyCode.Backspace)) && name.Length >0 &&!deleting)
+                {
+                    deleting = true;
+                    Debug.Log("Deleting");
+                    name = name.Remove(name.Length - 1);
+                    Debug.Log(name);
+                    cursor--;
+                    cursor--;
+                    editText = editText.Remove(cursor, 1);
+                    text.text = editText;
                 }
             }
         }
