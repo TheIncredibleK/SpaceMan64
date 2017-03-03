@@ -9,7 +9,7 @@ public class selectTrack : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        trackType = gameObject.ToString();
+        trackType = gameObject.ToString().ToLower();
         raceController = GameObject.Find("raceController").GetComponent<raceController>();
     }
 	
