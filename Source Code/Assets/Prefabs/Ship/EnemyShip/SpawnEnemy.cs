@@ -29,10 +29,12 @@ public class SpawnEnemy : MonoBehaviour {
 				GameObject enemy1 = GameObject.Instantiate<GameObject> (enemyPrefab);
 				enemy1.transform.position = point + way.waypoints [i].transform.right * 10;
 				enemy1.transform.rotation = way.waypoints [i].transform.rotation;
+				enemy1.GetComponent<EnemyScript> ().gatePos = way.waypoints [i].transform.position;
 
 				GameObject enemy2 = GameObject.Instantiate<GameObject> (enemyPrefab);
 				enemy2.transform.position = point  - way.waypoints [i].transform.right * 10;
 				enemy2.transform.rotation = way.waypoints [i].transform.rotation;
+				enemy2.GetComponent<EnemyScript> ().gatePos = way.waypoints [i].transform.position;
 
 			}
 		}
