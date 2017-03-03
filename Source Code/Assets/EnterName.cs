@@ -19,10 +19,11 @@ public class EnterName : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        persString = Scores.LoadTemp().Split(',');
-        time = persString[0];
-        track = persString[1];
-        winner = Convert.ToBoolean(persString[2]);
+        scoreSubmitted = false;
+        //persString = Scores.LoadTemp().Split(',');
+        time = "22:30";//persString[0];
+        track = "easy";//persString[1];
+        winner = true;//Convert.ToBoolean(persString[2]);
 
         text = GameObject.Find("EnterName").GetComponent<Text>();
         editText = "Enter Your Name:\n\n\n\n\n\n_ _ _ _ _ _ _ _ _ _";
@@ -31,27 +32,38 @@ public class EnterName : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        scoreSubmitted = false;
         foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
         {
             if (name.Length < 10 && winner /**&& Scores.CheckScore(track,time)**/)
             {
                 if (Input.GetKeyDown(key) && !(Input.GetKeyDown("return")))
                 {
-                    Debug.Log(key);
+                    //Debug.Log(key);
                     editText = editText.Insert(cursor, key.ToString());
                     name += key.ToString();
                     cursor++;
                     editText = editText.Insert(cursor, " ");
                     cursor++;
                     text.text = editText;
-                    Debug.Log(editText.ToString());
+                    //Debug.Log(editText.ToString());
+                }
+                if ((Input.GetKeyDown("return"))&&!scoreSubmitted)
+                {
+                    //Debug.Log("Trying to save");
+                    scoreSubmitted = true;
+                    submit(track, time, name);
                 }
             }
-            if ((Input.GetKeyDown("return"))){
-                Debug.Log("Trying to save");
-                scoreSubmitted = true;
-                Scores.SubmitScore(track, time, name);
-            }
+        }
+    }
+
+    void submit(string track, string time, string name)
+    {
+        if (scoreSubmitted)
+        {
+            Debug.Log("Counting");
+            Scores.SubmitScore(track, time, name);
         }
     }
 }
