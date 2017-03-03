@@ -63,6 +63,10 @@ public class raceController : MonoBehaviour {
                     waypointsController.GetComponent<waypointsController>().setVars(persistantObject, totalTime, timeRemaining);
                     playerArrow.GetComponent<guideArrow>().waypointsController = waypointsController;
                 }
+
+				//spawn the enemies around the gates
+				this.GetComponent<SpawnEnemy> ().SpawnEnemies();
+
                 trackBuilt = true;
             }
 

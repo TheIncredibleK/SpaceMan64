@@ -124,5 +124,11 @@ public class FlightController : MonoBehaviour
 		speed = speed / 2;
 	}
 
+	void OnTriggerEnter(Collider other){
+		if (other.tag == "enemyBullet") {
+			//change health
+		}
+	}
+
 
 }
