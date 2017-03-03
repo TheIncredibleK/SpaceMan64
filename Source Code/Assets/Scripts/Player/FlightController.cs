@@ -14,8 +14,8 @@ public class FlightController : MonoBehaviour
 	float rotateAngleZ;
 	float rateOfChange = 0.00058f;
 	float topRot = 1.0f;
-	float currentMaxSpeed = 15.0f;
-	float topSpeed = 15.0f;
+	float currentMaxSpeed = 20.0f;
+	float topSpeed = 20.0f;
 	float nitrosSpeed;
 	public float speed = 0.0f;
 	float acceleration = 0.07f;
@@ -28,7 +28,7 @@ public class FlightController : MonoBehaviour
 	{
 		//Initalise flight controller
 		flyController = new Controller();
-		nitrosSpeed = topSpeed * 2.0f;
+		nitrosSpeed = topSpeed * 4.0f;
 		gestureRecogniser = GetComponent<GestureRecogniser>(); 
 		rotateAngleX = 0.0f;
 		rotateAngleZ = 0.0f;
