@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class waypointsController : MonoBehaviour {
@@ -17,9 +18,10 @@ public class waypointsController : MonoBehaviour {
     private float curOverTime = 0;
     public string trackName;
     public bool raceStarted = false;
+    public float minutes = 0;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         nextWapoint = waypoints[0];
         curDown = countDown;
         var main = nextWapoint.GetComponent<waypointCollider>().ps.main;
@@ -33,15 +35,9 @@ public class waypointsController : MonoBehaviour {
         {
             if (i == waypoints.Length-1 && waypoints[i].GetComponent<waypointCollider>().collided)
             {
-                float minutes = 0;
-                while(curOverTime >= 60)
-                {
-                    minutes += 1;
-                    curOverTime -= 60;
-                }
                 string score = minutes + ":" + curOverTime;
                 persistantObject.GetComponent<persistantData>().setInfo(score, true, trackName);
-                Debug.Log("Winner:"+score);
+                SceneManager.LoadScene("Exit");
             }
             else if (waypoints[i].GetComponent<waypointCollider>().collided)
             {
@@ -57,22 +53,50 @@ public class waypointsController : MonoBehaviour {
         if(raceStarted)
         {
             timeRemaining.text = "" + curDown.ToString("F2");
-            totalTime.text = "Total Time:" + (curOverTime).ToString("F2");
+            if(minutes > 0)
+            {
+                if(minutes < 10 && curOverTime < 10)
+                {
+                    totalTime.text = "Total Time:0" + minutes.ToString("F0") + ".0" + (curOverTime).ToString("F0");
+                }
+                else if(minutes < 10)
+                {
+                    totalTime.text = "Total Time:0" + minutes.ToString("F0") + "." + (curOverTime).ToString("F0");
+                }
+                else if(curOverTime < 10)
+                {
+                    totalTime.text = "Total Time:" + minutes.ToString("F0") + ".0" + (curOverTime).ToString("F0");
+                }
+                else
+                {
+                    totalTime.text = "Total Time:" + minutes.ToString("F0") + "." + (curOverTime).ToString("F0");
+                }
+                
+            }
+            else
+            {
+                if(curOverTime < 10)
+                {
+                    totalTime.text = "Total Time:00.0" + (curOverTime).ToString("F0");
+                }
+                else
+                {
+                    totalTime.text = "Total Time:00." + (curOverTime).ToString("F0");
+                }
+            }
             curDown -= Time.deltaTime;
             curOverTime += Time.deltaTime;
         }
-        
+        if(curOverTime >= 60)
+        {
+            minutes += 1;
+            curOverTime -= 60;
+        }
         if(curDown <= 0.0f)
         {
-            float minutes = 0;
-            while (curOverTime >= 60)
-            {
-                minutes += 1;
-                curOverTime -= 60;
-            }
             string score = minutes + ":" + curOverTime;
             persistantObject.GetComponent<persistantData>().setInfo(score, false, trackName);
-            Debug.Log("Loser");
+            SceneManager.LoadScene("Exit");
         }
 	}
 
