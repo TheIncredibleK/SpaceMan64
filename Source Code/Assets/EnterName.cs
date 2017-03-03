@@ -10,12 +10,16 @@ public class EnterName : MonoBehaviour {
     public Text text;
     public int cursor;
     public GameObject persistantObject;
+    public Text leaderboard;
     public String name;
     public String time;
     public String track;
     public string[] persString = new string[3];
     public Boolean winner;
     public bool scoreSubmitted;
+    public string[] times;
+    public string[] names;
+    public TrackScores scores;
 
     // Use this for initialization
     void Start () {
@@ -24,7 +28,7 @@ public class EnterName : MonoBehaviour {
         time = "22:30";//persString[0];
         track = "easy";//persString[1];
         winner = true;//Convert.ToBoolean(persString[2]);
-
+        leaderboard = GameObject.Find("LeaderboardBody").GetComponent<Text>();
         text = GameObject.Find("EnterName").GetComponent<Text>();
         editText = "Enter Your Name:\n\n\n\n\n\n_ _ _ _ _ _ _ _ _ _";
         cursor = 21;
@@ -64,6 +68,22 @@ public class EnterName : MonoBehaviour {
         {
             Debug.Log("Counting");
             Scores.SubmitScore(track, time, name);
+            scores = Scores.GetScores(track);
+            names = scores.names;
+            times = scores.times;
+            for (int i = 0; i < names.Length; i++)
+            {
+                if (i == 0)
+                {
+                    leaderboard.text = i + 1 + ". " + names[i] + "  " + times[i] + "\n";
+                }
+                else
+                {
+                    leaderboard.text += i + 1 + ". " + names[i] + "  " + times[i] + "\n";
+                }
+            }
+            winner = false;
+            text.text = "Enter Your Name:\n\n\n\n\n\n_ _ _ _ _ _ _ _ _ _";
         }
     }
 }

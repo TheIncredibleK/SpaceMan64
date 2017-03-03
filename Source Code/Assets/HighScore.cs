@@ -51,38 +51,12 @@ public class HighScore : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        checkedScore = false;
-        if ((Input.GetKeyDown("return")&&!checkedScore))
-        {
-            Debug.Log("hitting");
-            checkedScore = true;
-            checkSubmitted();
-        }
+
     }
 
     void checkSubmitted()
     {
-        if (checkedScore)
-        {
-            submittedNewScore = GameObject.Find("EnterName").GetComponent<EnterName>().scoreSubmitted;
-            if (submittedNewScore)
-            {
-                scores = Scores.GetScores(track);
-                names = scores.names;
-                times = scores.times;
-            }
-            for (int i = 0; i < names.Length; i++)
-            {
-                if (i == 0)
-                {
-                    text.text = i + 1 + ". " + names[i] + "  " + times[i] + "\n";
-                }
-                else
-                {
-                    text.text += i + 1 + ". " + names[i] + "  " + times[i] + "\n";
-                }
-            }
-        }
+
     }
 
 }
