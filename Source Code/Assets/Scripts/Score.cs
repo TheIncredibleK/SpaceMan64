@@ -4,8 +4,6 @@ using System;
 using System.IO;
 using UnityEngine;
 
-
-
 public static class Scores {
 
 	private static string fileName = "/scores.json";
@@ -53,13 +51,10 @@ public static class Scores {
 
 		TrackScores track = Load (trackName);
 
-		int tPos = 420;//arbitrary value
-        time = time.Replace(":", "");
-        Double timed = Double.Parse(time);
-        int playerTime = Convert.ToInt32(timed);
+        float playerTime = Int32.Parse(time.Replace(":", ""));
 
 
-		for (int i = 0; i < track.times.Length; i++) {
+        for (int i = 0; i < track.times.Length; i++) {
 			if (playerTime < Int32.Parse (track.times [i].Replace (":", "")))
 				return true;
 			if (track.times [i] == "" || track.times [i] == null)
