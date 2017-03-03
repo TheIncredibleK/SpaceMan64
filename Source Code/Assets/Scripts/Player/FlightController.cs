@@ -14,12 +14,12 @@ public class FlightController : MonoBehaviour
 	float rotateAngleZ;
 	float rateOfChange = 0.00058f;
 	float topRot = 1.0f;
-	float currentMaxSpeed = 20.0f;
-	float topSpeed = 20.0f;
+	float currentMaxSpeed = 15.0f;
+	float topSpeed = 15.0f;
 	float nitrosSpeed;
 	public float speed = 0.0f;
 	float acceleration = 0.07f;
-	float handling = 40.0f;
+	float handling = 30.0f;
 	Vector3 velocity = new Vector3(0.0f,0.0f,0.0f);
     public bool raceStart = false;
 
@@ -67,6 +67,7 @@ public class FlightController : MonoBehaviour
 			}
 			if (speed <= topSpeed) {
 				speed += acceleration;
+				acceleration += .001f;
 			}
 
 
@@ -76,6 +77,8 @@ public class FlightController : MonoBehaviour
 
 		vehicle.transform.position += velocity;
 		speed *= .99f;
+		velocity = (velocity.normalized + (vehicle.transform.forward) / (handling * 1.5f) ) * speed * Time.deltaTime;
+
 
 		speedometer.fillAmount = speed / topSpeed;
 
