@@ -54,8 +54,9 @@ public static class Scores {
 		TrackScores track = Load (trackName);
 
 		int tPos = 420;//arbitrary value
-
-		float playerTime = Int32.Parse (time.Replace (":", ""));
+        time = time.Replace(":", "");
+        Double timed = Double.Parse(time);
+        int playerTime = Convert.ToInt32(timed);
 
 
 		for (int i = 0; i < track.times.Length; i++) {
@@ -70,7 +71,7 @@ public static class Scores {
 	//save temp score
 	public static bool SaveTemp(string score, string track, bool winner){
 		
-		File.Create (Application.persistentDataPath + tempFileName);
+		File.Create (Application.persistentDataPath + tempFileName).Dispose();
 		File.WriteAllText (Application.persistentDataPath + tempFileName, score + "," + track + "," + winner.ToString());
 		return true;
 	}

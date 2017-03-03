@@ -19,6 +19,7 @@ public class HighScore : MonoBehaviour {
     public string track;
     public string time;
     public bool winner;
+    public string persString;
     public TrackScores scores;
     public bool submittedNewScore;
 
@@ -32,6 +33,7 @@ public class HighScore : MonoBehaviour {
         //track = persistantObject.GetComponent<persistantData>().getTrack();
         //winner = persistantObject.GetComponent<persistantData>().getWinner();
         text = GameObject.Find("LeaderboardBody").GetComponent<Text>();
+        persString = Scores.LoadTemp();
         //scores = Scores.GetScores(track);
         //names = scores.names;
     }

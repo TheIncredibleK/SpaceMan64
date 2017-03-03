@@ -13,17 +13,16 @@ public class EnterName : MonoBehaviour {
     public String name;
     public String time;
     public String track;
-    public bool winner;
+    public string[] persString = new string[3];
+    public Boolean winner;
     public bool scoreSubmitted;
 
     // Use this for initialization
     void Start () {
-        //persistantObject = GameObject.Find("persistantObject");
-        //time = persistantObject.GetComponent<persistantData>().getTime();
-        //track = persistantObject.GetComponent<persistantData>().getTrack();
-        //winner = persistantObject.GetComponent<persistantData>().getWinner();
-        time = "2:12";
-        track = "easy";
+        persString = Scores.LoadTemp().Split(',');
+        time = persString[0];
+        track = persString[1];
+        winner = Convert.ToBoolean(persString[2]);
 
         text = GameObject.Find("EnterName").GetComponent<Text>();
         editText = "Enter Your Name:\n\n\n\n\n\n_ _ _ _ _ _ _ _ _ _";
@@ -34,7 +33,7 @@ public class EnterName : MonoBehaviour {
 	void Update () {
         foreach (KeyCode key in System.Enum.GetValues(typeof(KeyCode)))
         {
-            if (name.Length < 10 /**&& winner**/)
+            if (name.Length < 10 && winner /**&& Scores.CheckScore(track,time)**/)
             {
                 if (Input.GetKeyDown(key) && !(Input.GetKeyDown("return")))
                 {
@@ -51,6 +50,7 @@ public class EnterName : MonoBehaviour {
             if ((Input.GetKeyDown("return"))){
                 Debug.Log("Trying to save");
                 scoreSubmitted = true;
+                Scores.SubmitScore(track, time, name);
             }
         }
     }
