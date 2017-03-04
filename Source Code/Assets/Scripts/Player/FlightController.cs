@@ -19,7 +19,8 @@ public class FlightController : MonoBehaviour
 	float nitrosSpeed;
 	public float speed = 0.0f;
 	float acceleration = 0.07f;
-	float handling = 30.0f;
+	float handling = 20.0f;
+	float damper = .99f;
 	Vector3 velocity = new Vector3(0.0f,0.0f,0.0f);
     public bool raceStart = false;
 
@@ -51,15 +52,18 @@ public class FlightController : MonoBehaviour
 		if (hands.Count == 2) {
 			string current_gesture = gestureRecogniser.Recognise(hands[1]);
 			string for_ui = gestureRecogniser.Recognise(hands[0]);
+			string slow_down = gestureRecogniser.Recognise (hands [1]);
 			Leap.Hand r_hand = hands [1];
 
 			if (for_ui == "FIST") {
 				topSpeed = nitrosSpeed;
-			} else {
+			} else if (for_ui == "UI") {
+				damper = .8f;
+			}else{
 				topSpeed = currentMaxSpeed;
+				damper = .99f;
 			}
 			if (r_hand != null) {
-
 				float RollAngle = r_hand.PalmNormal.Roll;
 				float PitchAngle = r_hand.Direction.Pitch;
 				Tilt (RollAngle);
@@ -69,15 +73,12 @@ public class FlightController : MonoBehaviour
 				speed += acceleration;
 				acceleration += .001f;
 			}
-
-
-			//Added slipperiness to flight, to make it more natural
-			velocity = (velocity.normalized + (vehicle.transform.forward) / (handling * 1.5f) ) * speed * Time.deltaTime;
+				
 		}
 
 		vehicle.transform.position += velocity;
-		speed *= .99f;
-		velocity = (velocity.normalized + (vehicle.transform.forward) / (handling * 1.5f) ) * speed * Time.deltaTime;
+		speed *= damper;
+		velocity = (velocity.normalized + (vehicle.transform.forward) / (handling) ) * speed * Time.deltaTime;
 
 
 		speedometer.fillAmount = speed / topSpeed;

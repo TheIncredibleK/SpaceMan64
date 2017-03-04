@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour {
 
-	public float chargeTime = 5.0f;
+	public float chargeTime = 3.0f;
 	public float mass = 10.0f;
-	public float moveSpeed = 7.0f;
+	public float moveSpeed = 16.0f;
 	private float time = 0;
 	public float contactDist = 100.0f;
 	private Rigidbody rb;
