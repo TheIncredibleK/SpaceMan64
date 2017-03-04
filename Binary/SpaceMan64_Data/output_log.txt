@@ -1,0 +1,2907 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Security error. This plugin is invalid!
+
+ 
+(Filename:  Line: 30)
+
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) R9 390 Series (ID=0x67b1)
+    Vendor:   ATI
+    VRAM:     8169 MB
+    Driver:   21.19.137.514
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.021 seconds
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Keith Kenny\SpaceMan64\Source Code\SpaceMan64_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Security error. This plugin is invalid!
+
+ 
+(Filename:  Line: 30)
+
+Security error. This plugin is invalid!
+
+ 
+(Filename:  Line: 30)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'LeapHandController') is missing!
+ 
+(Filename:  Line: 1754)
+
+UnloadTime: 0.594118 ms
+HandPool.ModelsParent needs to reference the parent transform of the hand models.  This transform should be a child of the LMHeadMountedRig transform.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'SmallAsteroid') is missing!
+ 
+(Filename:  Line: 1754)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at Setcolour.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2660 -> priority: 1 
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[Leap.Hand].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at UIController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
