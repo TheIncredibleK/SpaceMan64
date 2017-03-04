@@ -23,7 +23,7 @@ public class SpawnEnemy : MonoBehaviour {
 		List<Vector3> points = new List<Vector3> ();
 
 		for (int i = 0; i < way.waypoints.Length; i++) {
-			if (i % 4 == 0) {
+			if (i % 2 == 0) {
 				Vector3 point = way.waypoints [i].transform.position;
 
 				GameObject enemy1 = GameObject.Instantiate<GameObject> (enemyPrefab);

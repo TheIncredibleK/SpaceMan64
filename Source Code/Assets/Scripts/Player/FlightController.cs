@@ -19,7 +19,7 @@ public class FlightController : MonoBehaviour
 	float nitrosSpeed;
 	public float speed = 0.0f;
 	float acceleration = 0.07f;
-	float handling = 20.0f;
+	float handling = 30.0f;
 	float damper = .99f;
 	Vector3 velocity = new Vector3(0.0f,0.0f,0.0f);
     public bool raceStart = false;
@@ -57,8 +57,10 @@ public class FlightController : MonoBehaviour
 
 			if (for_ui == "FIST") {
 				topSpeed = nitrosSpeed;
+				acceleration = .6f;
 			} else if (for_ui == "UI") {
-				damper = .8f;
+				damper = .6f;
+				acceleration = .07f;
 			}else{
 				topSpeed = currentMaxSpeed;
 				damper = .99f;
@@ -71,14 +73,14 @@ public class FlightController : MonoBehaviour
 			}
 			if (speed <= topSpeed) {
 				speed += acceleration;
-				acceleration += .001f;
+				acceleration += .008f;
 			}
 				
 		}
 
 		vehicle.transform.position += velocity;
 		speed *= damper;
-		velocity = (velocity.normalized + (vehicle.transform.forward) / (handling) ) * speed * Time.deltaTime;
+		velocity = (velocity.normalized * 2.0f + (vehicle.transform.forward)).normalized * speed * Time.deltaTime;
 
 
 		speedometer.fillAmount = speed / topSpeed;
